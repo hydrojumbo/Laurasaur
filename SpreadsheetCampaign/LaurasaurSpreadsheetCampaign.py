@@ -6,11 +6,9 @@ import sys
 
 #template, spreadsheet, fromAddress, username, password
 def main(arg1, arg2, arg3, arg4, arg5):
-    #f = open('D:\Dev\Laurasaur\Laurasaur\SpreadsheetCampaign\DemoCampaignTemplate.txt', 'r')
     f = open(arg1, 'r')
     template = f.read()
 
-    #wb = xlrd.open_workbook('D:\Dev\Laurasaur\Laurasaur\SpreadsheetCampaign\DemoCampaignSpreadsheet.xls')
     wb = xlrd.open_workbook(arg2)
     s = wb.sheets()[0]
 
@@ -28,10 +26,18 @@ def main(arg1, arg2, arg3, arg4, arg5):
     for row in range(s.nrows):
         values = {}
         if (first == 0):
+            # get column headers 
             first = 1
             for col in range(s.ncols):
                 keys.append(s.cell(row,col).value)        
         else:
+            # send email message for the row.
+            # required params in spreadsheet: 
+            #     ToPrefix   => the prefix of the person to whom this message is addressed
+            #     ToName     => the name of the person to whom this message is addressed
+            #     ToAddress  => the email address to send this message to
+            #     FromName   => the name to show in the receiver's inbox as From
+            #     Subject    => the mail subject
             for col in range(s.ncols):
                 values[keys[col]] = s.cell(row,col).value
             #print values
