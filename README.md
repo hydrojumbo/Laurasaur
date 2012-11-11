@@ -10,6 +10,7 @@ Scripts available:
 1) Spreadsheet Campaign => given an Excel .xls spreadsheet with the required columns, gmail account credentials, and a text file with Python-formatted parameter placeholders ({firstName} replaces the curly brackets {} and the name inside with the value of the column with header "firstName" for the row being used to send an email now), will send an email to each sendto email address row (one email per row).
 
 To use Spreadsheet Campaign, run the IDLE application that came with ActiveState python (should be in your C:\Python27 directory) and open LaurasaurSpreadsheetTest.py. Edit the values in this file to match the spreadsheet and message template you want to send emails with. The values you edit are:
+
 template = 'D:\Dev\Laurasaur\Laurasaur\SpreadsheetCampaign\DemoCampaignTemplate.txt'
 data = 'D:\Dev\Laurasaur\Laurasaur\SpreadsheetCampaign\DemoCampaignSpreadsheet.xls'
 sendFromGmailAddress = 'youremail@gmail.com'
