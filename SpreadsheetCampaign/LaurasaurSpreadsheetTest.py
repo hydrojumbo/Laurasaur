@@ -8,5 +8,5 @@ sendFromGmailAddress = 'youremail@gmail.com'
 sendFromGmailUserName = 'yourGmailUserName'
 sendFromGmailPassword = 'yourGmailPassword'
 
-# do the email campaign
+# actually do the email campaign
 LaurasaurSpreadsheetCampaign.main(template, data, sendFromGmailAddress, sendFromGmailUserName, sendFromGmailPassword)
