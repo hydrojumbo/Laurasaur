@@ -12,9 +12,13 @@ Scripts available:
 To use Spreadsheet Campaign, run the IDLE application that came with ActiveState python (should be in your C:\Python27 directory) and open LaurasaurSpreadsheetTest.py. Edit the values in this file to match the spreadsheet and message template you want to send emails with. The values you edit are:
 
 template = 'D:\Dev\Laurasaur\Laurasaur\SpreadsheetCampaign\DemoCampaignTemplate.txt'
+
 data = 'D:\Dev\Laurasaur\Laurasaur\SpreadsheetCampaign\DemoCampaignSpreadsheet.xls'
+
 sendFromGmailAddress = 'youremail@gmail.com'
+
 sendFromGmailUserName = 'yourGmailUserName'
+
 sendFromGmailPassword = 'yourGmailPassword'
 
 When you are done editing the values, save the file, and choose Run => Run Module from the menu at the top.
