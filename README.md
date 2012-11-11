@@ -29,7 +29,7 @@ To use Spreadsheet Campaign, run the IDLE application that came with ActiveState
   sendFromGmailPassword = 'yourGmailPassword'
 
 ### Setting Up The Data Spreadsheet ###
-There are 5 required columns in the Data Spreadsheet that are required. All other columns, if they are included, will be available as parameters that you can reference in the template by column header. All column headers must be unique within a spreadsheet.
+There are 5 required columns in the Data Spreadsheet that are required. All other columns, if they are included, will be available as parameters that you can reference in the template by their column header. All column headers must be unique within a spreadsheet.
 
   ToPrefix   => the prefix of the person to whom this message is addressed
 
