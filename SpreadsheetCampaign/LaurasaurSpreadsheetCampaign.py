@@ -14,7 +14,7 @@ def main(arg1, arg2, arg3, arg4, arg5):
     wb = xlrd.open_workbook(arg2)
     s = wb.sheets()[0]
 
-    # Credentials (if needed)
+    # Credentials 
     fromAddr = arg3
     username = arg4
     password = arg5
