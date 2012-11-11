@@ -10,7 +10,7 @@ Laurasaur is a collection of python scripts designed to make Laura's life easier
 ##1) Spreadsheet Campaign
 Given an Excel .xls spreadsheet with the required columns, gmail account credentials, and a text file with Python-formatted parameter placeholders, will send an email to each sendto email address row (one email per row).
 
-Python-formatted parameter placeholders in the template means that if you put "{firstName}" in the text (no quotes), the curly brackets {} and the name inside would be replaced with the value of the spreadsheet cell of the column with header "firstName" and the current row being used to send an email when the script is run.
+Python-formatted parameter placeholders in the template means that if you put "{firstName}" in the text (no quotes), the curly brackets {} and the name inside would be replaced with the value of the spreadsheet cell of the column with header "firstName" (no quotes) and the current row being used to send an email when the script is run.
 
 To use Spreadsheet Campaign, run the IDLE application that came with ActiveState python (should be in your C:\Python27 directory) and open LaurasaurSpreadsheetTest.py. Edit the values in this file to match the spreadsheet and message template with which you want to send emails. 
 
