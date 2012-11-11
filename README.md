@@ -36,4 +36,5 @@ To use Spreadsheet Campaign, run the IDLE application that came with ActiveState
 
   Subject    => the mail subject
 
+### Running The Campaign
 When you are done editing the values, save the file, and choose Run => Run Module from the menu at the top.
