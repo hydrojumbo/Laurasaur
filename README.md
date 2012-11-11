@@ -21,4 +21,12 @@ sendFromGmailUserName = 'yourGmailUserName'
 
 sendFromGmailPassword = 'yourGmailPassword'
 
+Required columns in the data spreadsheet:
+
+ToPrefix   => the prefix of the person to whom this message is addressed
+ToName     => the name of the person to whom this message is addressed
+ToAddress  => the email address to send this message to
+FromName   => the name to show in the receiver's inbox as From
+Subject    => the mail subject
+
 When you are done editing the values, save the file, and choose Run => Run Module from the menu at the top.
