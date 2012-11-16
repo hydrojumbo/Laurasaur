@@ -16,6 +16,9 @@ Python-formatted parameter placeholders in the template means that if you put "{
 
 To use Spreadsheet Campaign, run the IDLE application that came with ActiveState python (should be in your C:\Python27 directory) and open LaurasaurSpreadsheetTest.py. Edit the values in this file to match the spreadsheet and message template with which you want to send emails. 
 
+DEPENDENCIES:
+=> You will need to install xlrd, which can be acquired from: http://pypi.python.org/pypi/xlrd
+
 ### The Values You Edit Are: ###
 
   template = 'D:\Dev\Laurasaur\Laurasaur\SpreadsheetCampaign\DemoCampaignTemplate.txt'
